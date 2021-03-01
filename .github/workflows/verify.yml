@@ -14,8 +14,8 @@ jobs:
 
       - name: Install dependencies and run tests
         run: |
-          #bundle
-          #rake spec
+          bundle
+          rake spec
           false
 
       - name: Setup tmate session
